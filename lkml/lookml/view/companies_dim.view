@@ -1,0 +1,6 @@
+view_name: companies_dim
+
+dimension: company_country {
+  type: STRING
+  sql: company_country ;;
+}

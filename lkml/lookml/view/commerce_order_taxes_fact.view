@@ -1,0 +1,6 @@
+view_name: commerce_order_taxes_fact
+
+dimension: tax_amount_debit_budget {
+  type: NUMERIC
+  sql: tax_amount_debit_budget ;;
+}

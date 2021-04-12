@@ -1,0 +1,6 @@
+view_name: commerce_order_discounts_fact
+
+dimension: discount_amount_budget {
+  type: NUMERIC
+  sql: discount_amount_budget ;;
+}

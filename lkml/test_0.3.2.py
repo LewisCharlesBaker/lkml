@@ -5,6 +5,9 @@ import pandas as pd
 import os
 import pandas
 
+import sys
+
+
 sql = """
 
 with source as (
@@ -27,7 +30,7 @@ select
 *
 from source
 
-where table_name like '%fct%'
+where table_name like '%fact%'
 
 or table_name like '%dim%'
 
@@ -44,27 +47,7 @@ df = pandas.read_gbq(sql, dialect='standard')
 project_id = 'ra-development'
 df = pandas.read_gbq(sql, project_id=project_id, dialect='standard')
 
-for row in df.itertuples():
+out = df.to_json()
 
-    view_name = {
-    
-    "includes": [row.table_name + *.view]
+print (out)
 
-    }
-
-    lookml = {
-
-        "includes": ["*.view"],
-
-        "dimension": [
-            {
-                "label": "Orders, Items and Users",
-                "type": row.data_type,
-                "sql_table_name": row.column_name,
-                        "name": row.column_name,
-                    }
-                ],
-
-            }
-
-    print(looker.dump(lookml))

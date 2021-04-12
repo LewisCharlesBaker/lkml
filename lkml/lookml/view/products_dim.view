@@ -1,0 +1,6 @@
+view_name: products_dim
+
+dimension: product_upload_ts {
+  type: TIMESTAMP
+  sql: product_upload_ts ;;
+}

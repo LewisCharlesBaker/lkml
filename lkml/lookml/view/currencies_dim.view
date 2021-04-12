@@ -1,0 +1,6 @@
+view_name: currencies_dim
+
+dimension: symbol {
+  type: STRING
+  sql: symbol ;;
+}

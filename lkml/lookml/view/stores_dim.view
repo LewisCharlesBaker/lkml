@@ -1,0 +1,6 @@
+view_name: stores_dim
+
+dimension: store_name {
+  type: STRING
+  sql: store_name ;;
+}

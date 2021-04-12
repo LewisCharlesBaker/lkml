@@ -1,0 +1,6 @@
+view_name: fulfillment_items_fact
+
+dimension: item_fulfillment_shipping_cost_budget {
+  type: NUMERIC
+  sql: item_fulfillment_shipping_cost_budget ;;
+}

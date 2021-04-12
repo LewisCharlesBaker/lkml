@@ -1,0 +1,6 @@
+view_name: finance_net_sale_items_fact
+
+dimension: net_item_count {
+  type: NUMERIC
+  sql: net_item_count ;;
+}

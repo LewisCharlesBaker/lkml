@@ -1,0 +1,6 @@
+view_name: commerce_transaction_shipments_fact
+
+dimension: shipping_amount_budget {
+  type: NUMERIC
+  sql: shipping_amount_budget ;;
+}

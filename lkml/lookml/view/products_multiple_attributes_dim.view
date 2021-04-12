@@ -1,0 +1,6 @@
+view_name: products_multiple_attributes_dim
+
+dimension: product_season {
+  type: STRING
+  sql: product_season ;;
+}

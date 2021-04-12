@@ -1,0 +1,6 @@
+view_name: product_vendor_pricing_fact
+
+dimension: item_vendor_price {
+  type: NUMERIC
+  sql: item_vendor_price ;;
+}

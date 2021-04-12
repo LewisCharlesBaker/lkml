@@ -1,0 +1,6 @@
+view_name: vendors_dim
+
+dimension: vendor_full_name {
+  type: STRING
+  sql: vendor_full_name ;;
+}

@@ -1,0 +1,6 @@
+view_name: currency_exchange_rates_dim
+
+dimension: exchange_rate {
+  type: NUMERIC
+  sql: exchange_rate ;;
+}

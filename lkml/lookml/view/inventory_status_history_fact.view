@@ -1,0 +1,6 @@
+view_name: inventory_status_history_fact
+
+dimension: quantity_committed_count {
+  type: NUMERIC
+  sql: quantity_committed_count ;;
+}

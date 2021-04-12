@@ -1,0 +1,6 @@
+view_name: finance_payments_fact
+
+dimension: payment_method {
+  type: STRING
+  sql: payment_method ;;
+}

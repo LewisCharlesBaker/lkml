@@ -1,0 +1,6 @@
+view_name: commerce_order_items_fact
+
+dimension: markdown_amount_budget {
+  type: NUMERIC
+  sql: markdown_amount_budget ;;
+}

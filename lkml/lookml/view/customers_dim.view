@@ -1,0 +1,6 @@
+view_name: customers_dim
+
+dimension: is_inactive {
+  type: STRING
+  sql: is_inactive ;;
+}

@@ -1,0 +1,6 @@
+view_name: commerce_order_tax_details_fact
+
+dimension: amount_foreign {
+  type: NUMERIC
+  sql: amount_foreign ;;
+}
